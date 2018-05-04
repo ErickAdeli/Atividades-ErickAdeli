@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>Didatica</title>
+    
+    <link rel="stylesheet" href=".\css\bootstrap\bootstrap.css">
+    <link rel="stylesheet" href=".\css\style.css">
+
+    <script src=".\js\jQuery\jquery-3.2.1.js"></script>
+    <script src=".\js\alfabetizacao.js"></script>
+
+  </head>
+  <body>
+    
+
+    <form name="dados1">
+
+      <div class="row">
+        <div class="col-md-3">
+          <div class="container">
+            <div class="container-fluid">
+
+              <h4 class="title-head" style="background-color: #7CFC00">1- Selecione a palavra que não pertence a cada um dos grupos:</h4>
+
+              <div id="grupo1" class="form-group">
+
+                <h5 class="title-head" style="background-color: #FFFACD">Grupo 1</h5>
+
+                <input type="radio" name="radio1" value="arroz"> Arroz
+                <img src=".\img\arroz.png"  style="width: 150px;"><br>
+                <input type="radio" name="radio1" value="sabonete"> Sabonete
+                <img src=".\img\sabonete.png"  style="width: 150px;"><br>
+                <input type="radio" name="radio1" value="feijao"> Feijão
+                <img src=".\img\feijao.png"  style="width: 150px;"><br>
+                <input type="radio" name="radio1" value="batata"> Batata
+                <img src=".\img\batata.png"  style="width: 150px;"><br>
+
+              </div>
+
+
+              <div id="grupo2" class="form-group">
+
+                <h5 class="title-head" style="background-color: #FFFACD">Grupo 2</h5>
+
+                <input type="radio" name="radio2" value="bicicleta"> Bicicleta
+                <img src=".\img\bicicleta.png"  style="width: 150px;"><br>
+                <input type="radio" name="radio2" value="carro"> Carro
+                <img src=".\img\carro.png"  style="width: 150px;"><br>
+                <input type="radio" name="radio2" value="algodao"> Algodão doce
+                <img src=".\img\algodao.png"  style="width: 150px;"><br>
+                <input type="radio" name="radio2" value="moto"> Moto
+                <img src=".\img\moto.png"  style="width: 150px;"><br>
+
+              </div>
+
+              <div id="grupo3" class="form-group">
+
+                <h5 class="title-head" style="background-color: #FFFACD">Grupo 3</h5>
+
+                <input type="radio" name="radio3" value="oculos"> Óculos
+                <img src=".\img\oculos.png"  style="width: 150px;"><br>
+                <input type="radio" name="radio3" value="cadeira"> Cadeira de Praia
+                <img src=".\img\cadeira.png"  style="width: 150px;"><br>
+                <input type="radio" name="radio3" value="sombrinha"> Sombrinha
+                <img src=".\img\sombrinha.png" style="width: 150px;"><br>
+                <input type="radio" name="radio3" value="maquina"> Máquina de lavar
+                <img src=".\img\maquina.png"  style="width: 150px;"><br>
+
+              </div>
+
+              <div id="grupo4" class="form-group">
+
+                <h5 class="title-head" style="background-color: #FFFACD">Grupo 4</h5>
+
+                <input type="radio" name="radio4" value="bola"> Bola
+                <img src=".\img\bola.png"  style="width: 150px;"><br>
+                <input type="radio" name="radio4" value="skate"> Skate
+                <img src=".\img\skate.png"  style="width: 150px;"><br>
+                <input type="radio" name="radio4" value="patins"> Patins
+                <img src=".\img\patins.png"  style="width: 150px;"><br>
+                <input type="radio" name="radio4" value="chave"> Chave de fenda
+                <img src=".\img\chave.png"  style="width: 150px;"><br>
+
+              </div>
+
+              <button type="button" name="confirmar" class="btn btn-primary">Confirmar respostas</button>
+              <button type="reset" name="limpar" class="btn btn-warning">Jogar novamente</button><br><br>
+
+              <h5 class="title-head" style="background-color: #ADD8E6; font-size: 20px" name="pontuacao">Pontuação: </h5>
+              <br><br>
+
+            </div>
+          </div>
+        </div>
+
+      </form>
+
+        <div class="col-md-1">
+          <div class="container">
+
+          </div>
+        </div>
+
+      <form name="dados2">
+
+        <div class="col-md-3">
+          <div class="container">
+            <div class="container-fluid">
+
+                <h4 class="title-head" style="background-color: #FFFF00">2-Relacione o nome com a figura geométrica corretamente:</h4>
+
+                <div id="grupoNome" class="form-group">
+
+                  <h5 class="title-head" style="background-color: #98FB98">Nomes</h5><br>
+                  <p class="prg-border-1" id="triangulo">Triângulo</p><br><br><br>
+                  <p class="prg-border-1" id="quadrado">Quadrado</p><br><br><br>
+                  <p class="prg-border-1" id="circulo">Círculo</p><br><br><br>
+                  <p class="prg-border-1" id="retangulo">Retângulo</p><br>
+
+                </div>
+
+                <button type="button" name="confirmar2" class="btn btn-primary">Confirmar respostas</button>
+                <button type="reset" name="limpar2" class="btn btn-warning">Jogar novamente</button><br><br>
+
+                <div class="alert alert-danger" style="display: none; width:850px" id="alertaCor">
+                  Preencha as colunas corretamente com 4 cores diferentes em cada uma.
+                </div>
+
+                <h5 class="title-head" style="background-color: #ADD8E6; font-size: 20px" name="pontuacao2">Pontuação: </h5>
+                <h6 class="title-head" style="background-color: #ADD8E6; font-size: 14px" name="pontuacao3"></h6>
+                <h6 class="title-head" style="background-color: #ADD8E6; font-size: 14px" name="pontuacao4"></h6>
+                <h6 class="title-head" style="background-color: #ADD8E6; font-size: 14px" name="pontuacao5"></h6>
+                <h6 class="title-head" style="background-color: #ADD8E6; font-size: 14px" name="pontuacao6"></h6>
+                <h5 class="title-head" style="background-color: #ADD8E6; font-size: 18px" name="pontuacao7"> </h5>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3" style="margin-left:50px">
+          <div class="container">
+            <div class="container-fluid">
+                <br style="margin-top: 50px;">
+                <div id="grupoNome" class="form-group">
+                  <h5 class="title-head" style="background-color: #98FB98">Figuras</h5><br>
+                    <img src=".\img\quadrado.png" alt="quadrado" style="width: 75px;" class="prg-border-2"><br><br>
+                    <img src=".\img\circulo.png" alt="circulo" style="width: 80px;" class="prg-border-2"><br><br>
+                    <img src=".\img\triangulo.png" alt="triangulo" style="width: 80px;" class="prg-border-2"><br><br><br>
+                    <img src=".\img\retangulo.png" alt="retangulo" style="width: 80px;" class="prg-border-2"><br><br>
+                </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+      
+
+    <div class="row">
+      <nav class="navbar navbar-default nav-bg-style text-center">
+        <div class="container-fluid" style="background-color: #FFFAFA">
+          <ul class="nav navbar-nav">
+            <li><a href="DidaticaFinal.html" style="background-color: #FA8072" id="nav-style">Didática</a></li>
+            <li><a href="EscalaFinal.html" style="background-color: #FFD700">Escala Richter</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+  </body>
+
+</html>
