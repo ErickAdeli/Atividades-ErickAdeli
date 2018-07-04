@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>Formulario de cadastro</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+
+</head>
+
+<body>
+
+	<h1>Dados para o cadastro</h1>
+
+	<form method="post" action="validar.html">
+
+			<label for="Nome">Nome:</label>
+			<input  type="text" name="Nome:" placeholder="Nome da pessoa" >
+			<br>
+
+			<label for="CPF">CPF:</label>
+			<input type="text" name="CPF:" placeholder="CPF da pessoa"  maxlength="14">
+			<br>
+
+			<label for="Telefone">Telefone:</label>
+			<input type="text" name="Telefone:" placeholder="Telefone da pessoa"  maxlength="11">
+			<br>
+
+			<label for="Celular">Celular:</label>
+			<input type="text" name="Celular:" placeholder="Celular da pessoa"  maxlength="11">
+			<br>
+
+			<label for="Email">Email:</label>
+			<input type="text" name="Email:" placeholder="Email da pessoa">
+			<br>
+
+			<label for="Curso">Curso:</label>
+			<input type="text" name="Curso:" placeholder="Curso que pertence" >
+			<br>
+
+			<label for="Matricula">Matricula:</label>
+			<input type="text" name="Matricula:" placeholder="Matricula da pessoa" >
+			<br>
+
+			<label for="Dada de nascimento">Data de nascimento:</label>
+			<input type="date" name="Data de nascimento:">
+			<br>
+
+			<label for="Estado">Estado:</label>
+			<input type="text" name="Estado:" placeholder="Estado em que habita" maxlength="2" >
+			<br>
+
+			<label for="Cidade">Cidade:</label>
+			<input type="text" name="Cidade:" placeholder="Cidade em que habita" >
+			<br>
+
+			<label for="Endereço">Endereço:</label>
+			<input type="text" name="Endereço:" placeholder="Endereço em que habita" >
+			<br><br>
+
+			<!-- Colocando botões para marcar //-->
+
+			<label for="genero">Gênero</label>
+			<br>
+
+			<label for="feminino">Feminino</label>
+			<input type="radio" name="genero" id="feminino" value="F">
+			<br>
+
+			<label for="masculino">Masculino</label>
+			<input type="radio" name="genero" id="masculino" value="M">
+			<br>
+
+			<label for="naobinario">Não Binário</label>
+			<input type="radio" name="genero" id="naobinario" value="NB">
+			<br><br>
+
+
+			<label for="area">Áreas de interesse</label>
+			<br>
+
+			<label for="web">Web</label>
+			<input type="checkbox" name="area">
+			<br>
+
+			<label for="bd">Banco de dados</label>
+			<input type="checkbox" name="area">
+			<br>
+
+			<label for="otimizacao">Otimização</label>
+			<input type="checkbox" name="area">
+			<br>
+
+			<label for="redes">Redes</label>
+			<input type="checkbox" name="area">
+			<br><br>
+
+			<input type="submit" value ="Cadastrar">
+			<input type="reset" value ="Limpar">
+
+			<br><br>
+			<a href="Principal.html" target="_blank">
+			Voltar para a página principal</a>
+				
+		
+	</form>
+
+</body>
+
+</html>

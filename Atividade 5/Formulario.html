@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>Formulario de cadastro</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="./css/bootstrap.css">
+
+</head>
+
+<body>
+
+	<center><h1>Dados para o cadastro</h1></center>
+
+	<div class="row">
+			
+		<div class="col-md-2">			
+
+		</div>
+
+		<div class="col-md-8">	
+
+
+			<form method="post" action="validar.html">
+
+				<div class="form-group">
+
+					<label for="Nome">Nome:</label>
+					<input  type="text" name="Nome:" placeholder="Nome da pessoa" >
+					<br>
+
+					<label for="CPF">CPF:</label>
+					<input type="text" name="CPF:" placeholder="CPF da pessoa"  maxlength="14">
+					<br>
+
+					<label for="Telefone">Telefone:</label>
+					<input type="text" name="Telefone:" placeholder="Telefone da pessoa"  maxlength="11">
+					<br>
+
+					<label for="Celular">Celular:</label>
+					<input type="text" name="Celular:" placeholder="Celular da pessoa"  maxlength="11">
+					<br>
+
+					<label for="Email">Email:</label>
+					<input type="text" name="Email:" placeholder="Email da pessoa">
+					<br>
+
+					<label for="Curso">Curso:</label>
+					<input type="text" name="Curso:" placeholder="Curso que pertence" >
+					<br>
+
+					<label for="Matricula">Matricula:</label>
+					<input type="text" name="Matricula:" placeholder="Matricula da pessoa" >
+					<br>
+
+					<label for="Dada de nascimento">Data de nascimento:</label>
+					<input type="date" name="Data de nascimento:">
+					<br>
+
+					<label for="Estado">Estado:</label>
+					<input type="text" name="Estado:" placeholder="Estado em que habita" maxlength="2" >
+					<br>
+
+					<label for="Cidade">Cidade:</label>
+					<input type="text" name="Cidade:" placeholder="Cidade em que habita" >
+					<br>
+
+					<label for="Endereço">Endereço:</label>
+					<input type="text" name="Endereço:" placeholder="Endereço em que habita" >
+					<br><br>
+
+					<!-- Colocando botões para marcar //-->
+
+					<label for="genero">Gênero</label>
+					<br>
+
+					<div class="radio">
+						<label for="feminino">
+						<input type="radio" name="genero" id="feminino" value="F">Feminino</label>
+						<br>
+
+						<label for="masculino">
+						<input type="radio" name="genero" id="masculino" value="M">Masculino</label>
+						<br>
+
+						<label for="naobinario">
+						<input type="radio" name="genero" id="naobinario" value="NB">Não Binário</label>
+						<br><br>
+					</div>
+
+					<label for="area">Áreas de interesse</label>
+					<br>
+
+					<div class="checkbox">
+
+						<label for="web">
+						<input type="checkbox" name="area">Web</label>
+						<br>
+
+						<label for="bd">
+						<input type="checkbox" name="area">Banco de dados</label>
+						<br>
+
+						<label for="otimizacao">
+						<input type="checkbox" name="area">Otimização</label>
+						<br>
+
+						<label for="redes">
+						<input type="checkbox" name="area">Redes</label>
+						<br><br>
+					</div>
+
+				</div>
+
+
+				<button type="submit" class="btn btn-success">Cadastrar</button>
+				<button type="reset" class="btn btn-danger">Limpar</button>
+
+
+
+
+				<br><br>
+				<a href="Principal.html" class="btn btn-warning" target="_blank">
+				Voltar para a página principal</a>
+				
+		
+			</form>
+
+		</div>
+
+		<div class="col-md-2">
+			
+		</div>
+
+
+	</div>
+
+</body>
+
+</html>
